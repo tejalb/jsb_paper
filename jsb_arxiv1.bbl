@@ -1,0 +1,184 @@
+\begin{thebibliography}{10}
+
+\bibitem{cryoem_rev}
+X.~C. Bai, G.~McMullan, and S.~H. Scheres.
+\newblock {{H}ow cryo-{E}{M} is revolutionizing structural biology}.
+\newblock {\em Trends Biochem. Sci.}, 40(1):49--57, Jan 2015.
+
+\bibitem{rev2}
+J.~L. Milne, M.~J. Borgnia, A.~Bartesaghi, E.~E. Tran, L.~A. Earl, D.~M.
+  Schauder, J.~Lengyel, J.~Pierson, A.~Patwardhan, and S.~Subramaniam.
+\newblock {{C}ryo-electron microscopy--a primer for the non-microscopist}.
+\newblock {\em FEBS J.}, 280(1):28--45, Jan 2013.
+
+\bibitem{nogales}
+Eva Nogales.
+\newblock The development of cryo-em into a mainstream structural biology
+  technique.
+\newblock {\em Nat Meth}, 13(1):24--27, Jan 2016.
+\newblock Historical Commentary.
+
+\bibitem{sigworth_rev}
+Fred~J. Sigworth.
+\newblock Principles of cryo-em single-particle image processing.
+\newblock {\em Microscopy}, 2015.
+
+\bibitem{kuhlbrandt}
+Werner K{\"u}hlbrandt.
+\newblock Cryo-em enters a new era.
+\newblock {\em eLife}, 3:e03678, Aug 2014.
+\newblock 25122623[pmid].
+
+\bibitem{jane_classav}
+Zhizhen Zhao and Amit Singer.
+\newblock Rotationally invariant image representation for viewing direction
+  classification in cryo-em.
+\newblock {\em Journal of Structural Biology}, 186(1):153 -- 166, 2014.
+
+\bibitem{park}
+Wooram Park and Gregory~S. Chirikjian.
+\newblock An assembly automation approach to alignment of noncircular
+  projections in electron microscopy.
+\newblock {\em IEEE Transactions on Automation Science and Engineering},
+  11(3):668 -- 679, 2014.
+
+\bibitem{Penczek_image}
+Pawel~A. Penczek.
+\newblock Chapter two - image restoration in cryo-electron microscopy.
+\newblock In Grant~J. Jensen, editor, {\em Cryo-EM, Part B: 3-D
+  Reconstruction}, volume 482 of {\em Methods in Enzymology}, pages 35 -- 72.
+  Academic Press, 2010.
+
+\bibitem{spider}
+J.~Frank, M.~Radermacher, P.~Penczek, J.~Zhu, Y.~Li, M.~Ladjadj, and A.~Leith.
+\newblock {{S}{P}{I}{D}{E}{R} and {W}{E}{B}: processing and visualization of
+  images in 3{D} electron microscopy and related fields}.
+\newblock {\em J. Struct. Biol.}, 116(1):190--199, 1996.
+
+\bibitem{eman2}
+Guang Tang, Liwei Peng, Philip~R. Baldwin, Deepinder~S. Mann, Wen Jiang, Ian
+  Rees, and Steven~J. Ludtke.
+\newblock Eman2: An extensible image processing suite for electron microscopy.
+\newblock {\em Journal of Structural Biology}, 157(1):38 -- 46, 2007.
+\newblock Software tools for macromolecular microscopy.
+
+\bibitem{imagic}
+M.~van Heel, G.~Harauz, E.~V. Orlova, R.~Schmidt, and M.~Schatz.
+\newblock {{A} new generation of the {I}{M}{A}{G}{I}{C} image processing
+  system}.
+\newblock {\em J. Struct. Biol.}, 116(1):17--24, 1996.
+
+\bibitem{imagic2}
+M.~van Heel, B.~Gowen, R.~Matadeen, E.~V. Orlova, R.~Finn, T.~Pape, D.~Cohen,
+  H.~Stark, R.~Schmidt, M.~Schatz, and A.~Patwardhan.
+\newblock {{S}ingle-particle electron cryo-microscopy: towards atomic
+  resolution}.
+\newblock {\em Q. Rev. Biophys.}, 33(4):307--369, Nov 2000.
+
+\bibitem{kam1980}
+Z.~Kam.
+\newblock The reconstruction of structure from electron micrographs of randomly
+  oriented particles.
+\newblock {\em Journal of Theoretical Biology}, 82(1):15 -- 39, 1980.
+
+\bibitem{or}
+T.~Bhamre, Teng Zhang, and A.~Singer.
+\newblock Orthogonal matrix retrieval in cryo-electron microscopy.
+\newblock In {\em IEEE 12th International Symposium on Biomedical Imaging
+  (ISBI)}, pages 1048--1052, April 2015.
+
+\bibitem{ffbspca}
+Z.~Zhao, Y.~Shkolnisky, and A.~Singer.
+\newblock Fast steerable principal component analysis.
+\newblock {\em IEEE Transactions on Computational Imaging}, 2(1):1--12, March
+  2016.
+
+\bibitem{Frankbook}
+Joachim Frank.
+\newblock Chapter 3 - two-dimensional averaging techniques.
+\newblock In {\em Three-Dimensional Electron Microscopy of Macromolecular
+  Assemblies}, pages 54 -- 125. Academic Press, Burlington, 1996.
+
+\bibitem{sorzano1}
+C.O.S. Sorzano, S.~Jonic, R.~Núñez-Ramírez, N.~Boisset, and J.M. Carazo.
+\newblock Fast, robust, and accurate determination of transmission electron
+  microscopy contrast transfer function.
+\newblock {\em Journal of Structural Biology}, 160(2):249 -- 262, 2007.
+
+\bibitem{sorzano2}
+Carlos~O.S. Sorzano, Javier Vargas, Joaquín Otón, Vahid Abrishami, José~M.
+  de~la Rosa-Trevín, Sandra del Riego, Alejandro Fernández-Alderete, Carlos
+  Martínez-Rey, Roberto Marabini, and José~M. Carazo.
+\newblock Fast and accurate conversion of atomic models into electron density
+  maps.
+\newblock {\em AIMS Biophysics}, 2(20150102):8--20, 2015.
+
+\bibitem{box}
+George E.~P. Box.
+\newblock Science and statistics.
+\newblock {\em Journal of the American Statistical Association},
+  71(356):791--799, 1976.
+
+\bibitem{gene}
+E.~Katsevich, A.~Katsevich, and A.~Singer.
+\newblock Covariance matrix estimation for the cryo-em heterogeneity problem.
+\newblock {\em SIAM Journal on Imaging Sciences}, 8(1):126--185, 2015.
+
+\bibitem{joakim}
+Joakim And{\'{e}}n, Eugene Katsevich, and Amit Singer.
+\newblock ovariance estimation using conjugate gradient for 3d classification
+  in {CRYO-EM}.
+\newblock In {\em IEEE 12th International Symposium on Biomedical Imaging
+  (ISBI)}, pages 200--204, April 2015.
+
+\bibitem{marcenko}
+V.~A. Mar\v{c}enko and L.~A. Pastur.
+\newblock {Distribution of eigenvalues for some sets of random matrices}.
+\newblock {\em Mathematics of the USSR-Sbornik}, 1(4):457--483, April 1967.
+
+\bibitem{knadler}
+Shira Kritchman and Boaz Nadler.
+\newblock {Determining the number of components in a factor model from limited
+  noisy data}.
+\newblock {\em Chemometrics and Intelligent Laboratory Systems}, 94:19--32,
+  2008.
+
+\bibitem{donoho}
+David Donoho, Matan Gavish, and I~M Johnstone.
+\newblock Optimal shrinkage of eigenvalues in the spiked covariance model.
+\newblock {\em CoRR}, abs/1311.0851, 2014.
+
+\bibitem{wiener_deriv}
+D.~J.~C. MacKay.
+\newblock Chapter 46 - deconvolution.
+\newblock In {\em Information Theory, Inference and Learning Algorithms}, pages
+  550 -- 551. Cambridge University Press, Cambridge, UK, 2004.
+
+\bibitem{trpv1_nature}
+Maofu Liao, Erhu Cao, David Julius, and Yifan Cheng.
+\newblock Structure of the trpv1 ion channel determined by electron
+  cryo-microscopy.
+\newblock {\em Nature}, 504(7478):107—112, December 2013.
+
+\bibitem{80s_bai}
+Wilson Wong, Xiao-chen Bai, Alan Brown, Israel~S. Fernandez, Eric Hanssen,
+  Melanie Condron, Yan~Hong Tan, Jake Baum, and Sjors~HW Scheres.
+\newblock Cryo-em structure of the plasmodium falciparum 80s ribosome bound to
+  the anti-protozoan drug emetine.
+\newblock {\em eLife}, 3:e03080, Jun 2014.
+\newblock 24913268[pmid].
+
+\bibitem{ip3_paper}
+Steven J. Ludtke, Thao P. Tran, Que T. Ngo, Vera Yu. Moiseenkova-Bell, Wah
+  Chiu, and Irina I. Serysheva.
+\newblock Flexible architecture of {IP\textsubscript{3}R1} by cryo-em.
+\newblock {\em Structure}, 19(8):1192 -- 1199, 2011.
+
+\bibitem{70s_frank}
+Xabier Agirrezabala, Hstau~Y. Liao, Eduard Schreiner, Jie Fu, Rodrigo~F.
+  Ortiz-Meoz, Klaus Schulten, Rachel Green, and Joachim Frank.
+\newblock Structural characterization of mrna-trna translocation intermediates.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  109(16):6094--6099, 2012.
+
+\end{thebibliography}

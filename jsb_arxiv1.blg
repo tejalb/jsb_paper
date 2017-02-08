@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: jsb_arxiv1.aux
+The style file: unsrt.bst
+Database file #1: mybibfile.bib
+Warning--I'm ignoring donoho's extra "year" field
+--line 235 of file mybibfile.bib
+Warning--I'm ignoring kuhlbrandt's extra "note" field
+--line 439 of file mybibfile.bib
+Warning--I'm ignoring 80s_bai's extra "note" field
+--line 515 of file mybibfile.bib
+You've used 29 entries,
+            1791 wiz_defined-function locations,
+            640 strings with 9052 characters,
+and the built_in function-call counts, 8082 in all, are:
+= -- 695
+> -- 402
+< -- 6
++ -- 146
+- -- 117
+* -- 658
+:= -- 1282
+add.period$ -- 94
+call.type$ -- 29
+change.case$ -- 29
+chr.to.int$ -- 0
+cite$ -- 29
+duplicate$ -- 327
+empty$ -- 749
+format.name$ -- 117
+if$ -- 1796
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 29
+newline$ -- 152
+num.names$ -- 31
+pop$ -- 49
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 156
+stack$ -- 0
+substring$ -- 637
+swap$ -- 82
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 69
+width$ -- 31
+write$ -- 334
+(There were 3 warnings)

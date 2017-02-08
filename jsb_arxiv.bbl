@@ -1,0 +1,196 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{cryoem_rev}
+X.~C. Bai, G.~McMullan, S.~H. Scheres, {{H}ow cryo-{E}{M} is revolutionizing
+  structural biology}, Trends Biochem. Sci. 40~(1) (2015) 49--57.
+
+\bibitem{rev2}
+J.~L. Milne, M.~J. Borgnia, A.~Bartesaghi, E.~E. Tran, L.~A. Earl, D.~M.
+  Schauder, J.~Lengyel, J.~Pierson, A.~Patwardhan, S.~Subramaniam,
+  {{C}ryo-electron microscopy--a primer for the non-microscopist}, FEBS J.
+  280~(1) (2013) 28--45.
+
+\bibitem{nogales}
+E.~Nogales, \href{http://dx.doi.org/10.1038/nmeth.3694}{The development of
+  cryo-em into a mainstream structural biology technique}, Nat Meth 13~(1)
+  (2016) 24--27, historical Commentary.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/nmeth.3694}
+
+\bibitem{sigworth_rev}
+F.~J. Sigworth,
+  \href{http://jmicro.oxfordjournals.org/content/early/2015/12/23/jmicro.dfv370.abstract}{Principles
+  of cryo-em single-particle image processing}, Microscopy\href
+  {http://arxiv.org/abs/http://jmicro.oxfordjournals.org/content/early/2015/12/23/jmicro.dfv370.full.pdf+html}
+  {\path{arXiv:http://jmicro.oxfordjournals.org/content/early/2015/12/23/jmicro.dfv370.full.pdf+html}},
+  \href {http://dx.doi.org/10.1093/jmicro/dfv370}
+  {\path{doi:10.1093/jmicro/dfv370}}.
+\newline\urlprefix\url{http://jmicro.oxfordjournals.org/content/early/2015/12/23/jmicro.dfv370.abstract}
+
+\bibitem{kuhlbrandt}
+W.~K{\"u}hlbrandt,
+  \href{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4131193/}{Cryo-em enters a
+  new era}, eLife 3 (2014) e03678, 25122623[pmid].
+\newblock \href {http://dx.doi.org/10.7554/eLife.03678}
+  {\path{doi:10.7554/eLife.03678}}.
+\newline\urlprefix\url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4131193/}
+
+\bibitem{Penczek_image}
+P.~A. Penczek,
+  \href{http://www.sciencedirect.com/science/article/pii/S0076687910820026}{Chapter
+  two - image restoration in cryo-electron microscopy}, in: G.~J. Jensen (Ed.),
+  Cryo-EM, Part B: 3-D Reconstruction, Vol. 482 of Methods in Enzymology,
+  Academic Press, 2010, pp. 35 -- 72.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/S0076-6879(10)82002-6}
+  {\path{doi:http://dx.doi.org/10.1016/S0076-6879(10)82002-6}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0076687910820026}
+
+\bibitem{spider}
+J.~Frank, M.~Radermacher, P.~Penczek, J.~Zhu, Y.~Li, M.~Ladjadj, A.~Leith,
+  {{S}{P}{I}{D}{E}{R} and {W}{E}{B}: processing and visualization of images in
+  3{D} electron microscopy and related fields}, J. Struct. Biol. 116~(1) (1996)
+  190--199.
+
+\bibitem{eman2}
+G.~Tang, L.~Peng, P.~R. Baldwin, D.~S. Mann, W.~Jiang, I.~Rees, S.~J. Ludtke,
+  \href{http://www.sciencedirect.com/science/article/pii/S1047847706001894}{Eman2:
+  An extensible image processing suite for electron microscopy}, Journal of
+  Structural Biology 157~(1) (2007) 38 -- 46, software tools for macromolecular
+  microscopy.
+\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1016/j.jsb.2006.05.009}
+  {\path{doi:http://dx.doi.org/10.1016/j.jsb.2006.05.009}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1047847706001894}
+
+\bibitem{imagic}
+M.~van Heel, G.~Harauz, E.~V. Orlova, R.~Schmidt, M.~Schatz, {{A} new
+  generation of the {I}{M}{A}{G}{I}{C} image processing system}, J. Struct.
+  Biol. 116~(1) (1996) 17--24.
+
+\bibitem{imagic2}
+M.~van Heel, B.~Gowen, R.~Matadeen, E.~V. Orlova, R.~Finn, T.~Pape, D.~Cohen,
+  H.~Stark, R.~Schmidt, M.~Schatz, A.~Patwardhan, {{S}ingle-particle electron
+  cryo-microscopy: towards atomic resolution}, Q. Rev. Biophys. 33~(4) (2000)
+  307--369.
+
+\bibitem{kam1980}
+Z.~Kam,
+  \href{http://idc311-www.sciencedirect.com/science/article/pii/0022519380900880}{The
+  reconstruction of structure from electron micrographs of randomly oriented
+  particles}, Journal of Theoretical Biology 82~(1) (1980) 15 -- 39.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/0022-5193(80)90088-0}
+  {\path{doi:http://dx.doi.org/10.1016/0022-5193(80)90088-0}}.
+\newline\urlprefix\url{http://idc311-www.sciencedirect.com/science/article/pii/0022519380900880}
+
+\bibitem{or}
+T.~Bhamre, T.~Zhang, A.~Singer, Orthogonal matrix retrieval in cryo-electron
+  microscopy, in: IEEE 12th International Symposium on Biomedical Imaging
+  (ISBI), 2015, pp. 1048--1052.
+\newblock \href {http://dx.doi.org/10.1109/ISBI.2015.7164051}
+  {\path{doi:10.1109/ISBI.2015.7164051}}.
+
+\bibitem{ffbspca}
+Z.~Zhao, Y.~Shkolnisky, A.~Singer, Fast steerable principal component analysis,
+  IEEE Transactions on Computational Imaging 2.
+
+\bibitem{Frankbook}
+J.~Frank,
+  \href{http://www.sciencedirect.com/science/article/pii/B9780122650406500035}{Chapter
+  3 - two-dimensional averaging techniques}, in: Three-Dimensional Electron
+  Microscopy of Macromolecular Assemblies, Academic Press, Burlington, 1996,
+  pp. 54 -- 125.
+\newblock \href
+  {http://dx.doi.org/http://dx.doi.org/10.1016/B978-012265040-6/50003-5}
+  {\path{doi:http://dx.doi.org/10.1016/B978-012265040-6/50003-5}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/B9780122650406500035}
+
+\bibitem{gene}
+E.~Katsevich, A.~Katsevich, A.~Singer,
+  \href{http://dx.doi.org/10.1137/130935434}{Covariance matrix estimation for
+  the cryo-em heterogeneity problem}, SIAM Journal on Imaging Sciences 8~(1)
+  (2015) 126--185.
+\newblock \href {http://arxiv.org/abs/http://dx.doi.org/10.1137/130935434}
+  {\path{arXiv:http://dx.doi.org/10.1137/130935434}}, \href
+  {http://dx.doi.org/10.1137/130935434} {\path{doi:10.1137/130935434}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1137/130935434}
+
+\bibitem{joakim}
+J.~And{\'{e}}n, E.~Katsevich, A.~Singer, ovariance estimation using conjugate
+  gradient for 3d classification in {CRYO-EM}, in: IEEE 12th International
+  Symposium on Biomedical Imaging (ISBI), 2015, pp. 200--204.
+\newblock \href {http://dx.doi.org/10.1109/ISBI.2015.7164051}
+  {\path{doi:10.1109/ISBI.2015.7164051}}.
+
+\bibitem{marcenko}
+V.~A. Mar\v{c}enko, L.~A. Pastur,
+  \href{http://dx.doi.org/10.1070/sm1967v001n04abeh001994}{{Distribution of
+  eigenvalues for some sets of random matrices}}, Mathematics of the
+  USSR-Sbornik 1~(4) (1967) 457--483.
+\newblock \href {http://dx.doi.org/10.1070/sm1967v001n04abeh001994}
+  {\path{doi:10.1070/sm1967v001n04abeh001994}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1070/sm1967v001n04abeh001994}
+
+\bibitem{knadler}
+S.~Kritchman, B.~Nadler, {Determining the number of components in a factor
+  model from limited noisy data}, Chemometrics and Intelligent Laboratory
+  Systems 94 (2008) 19--32.
+\newblock \href {http://dx.doi.org/10.1016/j.chemolab.2008.06.002}
+  {\path{doi:10.1016/j.chemolab.2008.06.002}}.
+
+\bibitem{donoho}
+D.~Donoho, M.~Gavish, I.~M. Johnstone, \href{arxiv.org/abs/1311.0851}{Optimal
+  shrinkage of eigenvalues in the spiked covariance model}, CoRR abs/1311.0851.
+\newline\urlprefix\url{arxiv.org/abs/1311.0851}
+
+\bibitem{wiener_deriv}
+D.~J.~C. MacKay, Chapter 46 - deconvolution, in: Information Theory, Inference
+  and Learning Algorithms, Cambridge University Press, Cambridge, UK, 2004, pp.
+  550 -- 551.
+
+\bibitem{trpv1_nature}
+M.~Liao, E.~Cao, D.~Julius, Y.~Cheng,
+  \href{http://europepmc.org/articles/PMC4078027}{Structure of the trpv1 ion
+  channel determined by electron cryo-microscopy}, Nature 504~(7478) (2013)
+  107—112.
+\newblock \href {http://dx.doi.org/10.1038/nature12822}
+  {\path{doi:10.1038/nature12822}}.
+\newline\urlprefix\url{http://europepmc.org/articles/PMC4078027}
+
+\bibitem{80s_bai}
+W.~Wong, X.-c. Bai, A.~Brown, I.~S. Fernandez, E.~Hanssen, M.~Condron, Y.~H.
+  Tan, J.~Baum, S.~H. Scheres,
+  \href{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4086275/}{Cryo-em structure
+  of the plasmodium falciparum 80s ribosome bound to the anti-protozoan drug
+  emetine}, eLife 3 (2014) e03080, 24913268[pmid].
+\newblock \href {http://dx.doi.org/10.7554/eLife.03080}
+  {\path{doi:10.7554/eLife.03080}}.
+\newline\urlprefix\url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4086275/}
+
+\bibitem{ip3_paper}
+S.~Ludtke, T.~Tran, Q.~Ngo, V.~Moiseenkova-Bell, W.~Chiu, I.~Serysheva,
+  \href{http://www.sciencedirect.com/science/article/pii/S0969212611001808}{Flexible
+  architecture of {IP\textsubscript{3}R1} by cryo-em}, Structure 19~(8) (2011)
+  1192 -- 1199.
+\newblock \href {http://dx.doi.org/http://dx.doi.org/10.1016/j.str.2011.05.003}
+  {\path{doi:http://dx.doi.org/10.1016/j.str.2011.05.003}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0969212611001808}
+
+\bibitem{70s_frank}
+X.~Agirrezabala, H.~Y. Liao, E.~Schreiner, J.~Fu, R.~F. Ortiz-Meoz,
+  K.~Schulten, R.~Green, J.~Frank,
+  \href{http://www.pnas.org/content/109/16/6094.abstract}{Structural
+  characterization of mrna-trna translocation intermediates}, Proceedings of
+  the National Academy of Sciences 109~(16) (2012) 6094--6099.
+\newblock \href
+  {http://arxiv.org/abs/http://www.pnas.org/content/109/16/6094.full.pdf}
+  {\path{arXiv:http://www.pnas.org/content/109/16/6094.full.pdf}}, \href
+  {http://dx.doi.org/10.1073/pnas.1201288109}
+  {\path{doi:10.1073/pnas.1201288109}}.
+\newline\urlprefix\url{http://www.pnas.org/content/109/16/6094.abstract}
+
+\end{thebibliography}

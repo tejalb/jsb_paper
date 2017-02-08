@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: rebuttal.aux
+The style file: elsarticle-num.bst
+Database file #1: resp_ref.bib
+Warning--I'm ignoring donoho's extra "year" field
+--line 47 of file resp_ref.bib
+You've used 4 entries,
+            2937 wiz_defined-function locations,
+            695 strings with 5692 characters,
+and the built_in function-call counts, 1090 in all, are:
+= -- 107
+> -- 28
+< -- 0
++ -- 12
+- -- 8
+* -- 79
+:= -- 173
+add.period$ -- 6
+call.type$ -- 4
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 30
+empty$ -- 117
+format.name$ -- 10
+if$ -- 275
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 24
+num.names$ -- 4
+pop$ -- 20
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 69
+stack$ -- 0
+substring$ -- 43
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 7
+width$ -- 5
+write$ -- 44
+(There was 1 warning)

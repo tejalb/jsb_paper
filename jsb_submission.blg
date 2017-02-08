@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: jsb_submission.aux
+The style file: elsarticle-num.bst
+Database file #1: mybibfile.bib
+Warning--I'm ignoring donoho's extra "year" field
+--line 235 of file mybibfile.bib
+Warning--I'm ignoring kuhlbrandt's extra "note" field
+--line 439 of file mybibfile.bib
+Warning--I'm ignoring 80s_bai's extra "note" field
+--line 515 of file mybibfile.bib
+You've used 29 entries,
+            2937 wiz_defined-function locations,
+            905 strings with 12409 characters,
+and the built_in function-call counts, 10963 in all, are:
+= -- 1078
+> -- 381
+< -- 6
++ -- 146
+- -- 117
+* -- 989
+:= -- 1508
+add.period$ -- 49
+call.type$ -- 29
+change.case$ -- 33
+chr.to.int$ -- 0
+cite$ -- 29
+duplicate$ -- 327
+empty$ -- 1150
+format.name$ -- 138
+if$ -- 2791
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 29
+newline$ -- 133
+num.names$ -- 31
+pop$ -- 161
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 608
+stack$ -- 0
+substring$ -- 645
+swap$ -- 139
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 69
+width$ -- 31
+write$ -- 310
+(There were 3 warnings)

@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{stein1}
+C.~Stein, \href{http://dx.doi.org/10.1007/BF01085007}{Lectures on the theory of
+  estimation of many parameters}, Journal of Soviet Mathematics 34~(1) (1986)
+  1373--1403.
+\newblock \href {http://dx.doi.org/10.1007/BF01085007}
+  {\path{doi:10.1007/BF01085007}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1007/BF01085007}
+
+\bibitem{stein2}
+C.~Stein, Some problems in multivariate analysis, Technical report, Department
+  of Statistics, Stanford University, 1956.
+
+\bibitem{donoho}
+D.~Donoho, M.~Gavish, I.~M. Johnstone, \href{arxiv.org/abs/1311.0851}{Optimal
+  shrinkage of eigenvalues in the spiked covariance model}, CoRR abs/1311.0851.
+\newline\urlprefix\url{arxiv.org/abs/1311.0851}
+
+\bibitem{ffbspca}
+Z.~Zhao, Y.~Shkolnisky, A.~Singer, Fast steerable principal component analysis,
+  IEEE Transactions on Computational Imaging 2~(1) (2016) 1--12.
+\newblock \href {http://dx.doi.org/10.1109/TCI.2016.2514700}
+  {\path{doi:10.1109/TCI.2016.2514700}}.
+
+\end{thebibliography}

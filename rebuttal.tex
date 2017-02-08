@@ -1,0 +1,180 @@
+
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+%opening
+\title{Response to Reviewers' Comments}
+
+\begin{document}
+
+\maketitle
+
+We thank both reviewers for their valuable feedback which was extremely
+helpful. We have incorporated their suggestions into the paper to improve both content and
+readability of our paper. Below we first comment on some overall improvements and changes that 
+we made to the algorithm, followed by point-by-point reply to the reviewers' comments. 
+
+\section*{Improvements to the Manuscript}
+\subsection*{Details about using conjugate gradient to solve eqn. 9 }
+While $L$ in eqn. 9 is PSD, the new effective operator in the LHS of eqn. 11 is not necessarily PSD in general.
+In order to use conjugate gradient, we solve the system $S^{-1}L(S^{-1}\Sigma_S S^{-1})S^{-1} = S^{-1}MS^{-1}-I$, where
+$\Sigma_S = S \Sigma S$, in which the operator acting on $\Sigma_S$ in the LHS is PSD. $\Sigma$ is then obtained
+from the estimated $\Sigma_S$. We note that this change did not effect whatsoever the output of the algorithm,
+but we wanted the reviewers to be aware of this small change.
+
+\subsection*{Outlier detection}
+The reviewers raised a very important question of how outliers are affected by the denoising procedure.
+This is a very interesting question, and we were curious to see
+the results ourselves. We find that outlier images such as pure noise images have
+relatively low contrast after denoising using CWF. So a simple linear classifier
+based on the image contrast can be employed for outlier detection. More complicated situations
+such as outliers from a different class of a heterogeneous dataset are difficult to distinguish
+with denoising. We have added an experiment in section 3.7 for detecting pure noise images as outliers, to demonstrate
+how CWF can be extended to build a classifier for outlier detection.
+
+
+\section*{Response to Reviewer 1}
+\begin{itemize}
+ \item Page 2: ``The first is a heuristic approach known as phase flipping". I 
+would remove the word heuristic, since correcting for the sign, although not 
+perfect, is already a well-justified correction. \\
+\textbf{\textit{ As per the reviewer's suggestion, we have dropped the word `heuristic'.}}
+
+ \item In the theoretical justification of the method, one of the main 
+assumptions is that the $X_i$ and $\xi_i$ coefficients are iid random variables. 
+$X_i$ are not independent of each other (see C.O.S. Sorzano, J. Vargas, J. Otón, 
+V. Abrishami, J.M. de la Rosa-Trevín, S. del Riego, A. Fernández-Alderete, C. 
+Martínez-Rey, R. Marabini, J.M. Carazo. Fast and accurate conversion of atomic 
+models into electron density maps. AIMS Biophysics, 2: 8-20 (2015)) and they are 
+not identically distributed (it is well-known that Fourier components of low 
+frequency have more energy than Fourier components of high frequency). Also, the 
+assumption of iid $\xi_i$ variables is not well supported in EM in which we 
+normally have noise before CTF (and consequently affected by CTF) and noise 
+after CTF (which is not white, see C.O.S. Sorzano, S. Jonic, R. Núñez, N. 
+Boisset, J.M. Carazo. Fast, robust and accurate determination of transmission 
+electron microscopy contrast transfer function. Journal Structural
+Biology 160: 249-262 (2007)). Despite of all these assumptions, which are not 
+fulfilled in EM, it is better to have a method with incorrect assumptions but 
+yielding useful results, than no method at all. And this seems to be the case 
+with this algorithm. \\
+\textbf{\textit{We agree with the reviewer, and to clarify this we have made a note 
+about our assumptions in section 2.1. We also now cite the above
+mentioned references. In this context, it makes sense to recall the famous saying of George Box: ``All models are wrong but some are useful." }}
+
+\item In the article, it is not well remarked that the Epsilon covariance matrix 
+is supposed to represent the covariance of the Fourier coefficients of 
+projection images irrespective of their orientation. This assumption implies an 
+increase of variance (due to the different orientations), in addition to the 
+variance due to the different frequencies, which is not well explained in the 
+article. \\
+\textbf{\textit{We agree with the reviewer that this point was not well enough explained in the paper. 
+We have added the required clarification about covariance due to different orientations to  Section 2.1,
+please see the sentence beginning with "Since the clean images are 2D projections of the 3D molecule in different orientations...''}}
+
+\item Eq. 13. Since there is an important source of noise affected by the CTF, a 
+purely "whitening" filter would boost the noise close to the CTF zeroes, and it 
+would not be possible to have $W \xi_i$ distributed as $\mathcal{N}(0,\sigma^2 I)$. How to 
+construct the whitening filter should be better explained. \\
+\textbf{\textit{The whitening filter is constructed by estimating the 2D isotropic 
+power spectral density of noise. To do this, we first estimate using correlograms the 2D autocorrelation
+of the corner pixels of the images which contain mostly noise and no signal. These corner
+pixels are used to estimate the 1D autocorrelation, which is then extended to populate the 2D isotropic
+autocorrelation. We have added a description of how $W$ is constructed in section 2.2.}}
+
+\item It would be very interesting to see how the method deals in practice with 
+contaminating images, further violating the method assumptions (for instance, 
+images with just noise and no particles, particles with other particles in their 
+surroundings, images with objects not being particles; this kind of images are 
+easily obtained by automatic picking articles and they normally represent 
+between $10-30\%$ of the collected data). \\
+\textbf{\textit{Please see `Outlier Detection' in the `Improvements to the Manuscript' section.}}
+
+\item Although maybe out of the scope of this paper, it would be very 
+interesting to see if the restored particles can be used for 2D classification 
+and even 3D reconstruction without a significant loss of structural information. 
+At least, the authors could comment on this issues as future work. \\
+\textbf{\textit{Indeed, this is a very important direction to pursue, and it 
+is included in our plan for immediate future work.
+We have added a few directions for future work in section 4.}}
+
+\item In any case, the results shown by the authors are quite promising and the 
+fact that EM images do not fulfill the theoretical assumptions of the method 
+does not invalidate its results. The restored images are certainly closer to the 
+ideal images than the acquired projections.\\
+\textbf{\textit{Thanks, we completely agree.}}
+\end{itemize}
+
+\section*{Response to Reviewer 2}
+\begin{itemize}
+\item  People spend time looking at their particle images to discover outliers.  
+It would be great if denoising helps this.  It would be useful in your 
+simulations to show what outliers look like when denoised.  For example, what do 
+pure-noise images look like when denoised?  Will they just look like $\mu$?  What 
+if rare (a few $\%$ of total) images are just blobs, could one distinguish them?\\
+\textbf{\textit{Please see `Outlier Detection' in the `Improvements to the Manuscript' section.}}
+
+\item  Similarly, in the heterogeneous 70S dataset, do the denoised images 
+demonstrate the heterogeneity?  That is, could one classify the denoised images 
+correctly if one knew what the different underlying structures looked like?  
+Apart from this issue, there seems little need to add this fourth dataset.\\
+\textbf{\textit{The current CWF algorithm is not expected to be able to distinguish heterogeneous particles
+based on their denoised images. We have added a comment to that effect in section 3.7. We show results with 2 datasets
+each for new and old cameras simply to convince the readers of the applicability of CWF to experimental datasets.}}
+
+\item  As ice thickness varies, the contrast in the particle images varies by as 
+much as a factor of 2.  What would that do to the denoising?  I guess this is 
+related to the question of what pure-noise images look like.\\
+\textbf{\textit{The contrast factor due to variability in ice thickness can be modeled as an additional scalar parameter
+and absorbed into the random variable $X$ in the simulation. CWF estimates the denoised image with its contrast included. To demonstrate this, 
+we include varying contrast in the outlier detection experiment in section 3.7.}}
+
+
+\item In a sense you are doing something similar to class averaging.  
+Class-averaging is nice because it allows the user to discover classes of "bad" 
+particles and delete all the underlying images from the dataset before 
+reconstruction.  I'm trying to imagine how the use of the denoising procedure 
+would fit into the workflow for SPR.  For example, would there be a way to look 
+at the "neighborhood" of bad particles, say in the space of eigenvectors of 
+$\Sigma$, to be able to exclude them?  Also, have you through this work discovered 
+a better way to do class averaging in the first place?\\
+\textbf{\textit{Indeed, this is a very important direction to pursue, and it 
+is included in our plan for immediate future work.
+Including CWF in the class averaging procedure is certainly at the top of our list for 
+the next steps, as we remark in section 4.}}
+
+
+\item  I'm left a little nervous by the eigenvalue thresholding procedures, not 
+knowing what they are doing to the results.  Maybe you could give an example of 
+the effect on the results of taking different sample sizes n, to show that the 
+shrinkage procedure isn't introducing artifacts.\\
+\textbf{\textit{Shrinkage was first shown
+to improve covariance estimation by Stein \cite{stein1, stein2}, and is especially crucial in the high dimensional
+setting \cite{donoho} such as in this paper.
+We demonstrate the usefulness of the eigenvalue thresholding procedure in Figure 3, by showing
+the improvement in accuracy of the covariance estimation when eigenvalue shrinkage is included. }}
+
+
+\item  Maybe you should discuss briefly that you are not considering 
+translations, just in-plane rotations in modeling the images.\\
+\textbf{\textit{The algorithm does not assume centered images; however non-centered images
+would lead to further variability and therefore an additional blurring effect. We have added a comment to that
+effect at the beginning of section 3. }}
+
+
+\item  Page 9, middle.  I'm confused by the statement "$p_k$ decreases with 
+increasing k."   I'd expect the opposite.\\
+\textbf{\textit{ $k$ is the angular frequency, and $p_k$ is the maximum radial frequency for a given $k$. 
+Because the images are bandlimited, in order to avoid aliasing, for large angular frequencies we cannot allow large radial frequencies.
+The exact relation is given in eqn. 13 of \cite{ffbspca}.}}
+
+\item  Page 12, middle.  Please explain more what you mean by MSE.  Is it the 
+norm of the raw image minus the CTF-filtered denoised version?\\
+\textbf{\textit{Indeed, the MSE is the norm of the difference between the true, clean image and its denoised version. We have added a sentence
+explicitly defining the MSE in the Results section.}}
+\end{itemize}
+
+\bibliography{resp_ref}
+
+\end{document}

@@ -1,0 +1,10 @@
+@article{ffbspca,
+  author    = "Zhizhen Zhao and
+               Yoel Shkolnisky and
+               Amit Singer",
+  title     = "Fast Steerable Principal Component Analysis",
+  journal   = "IEEE Transactions on Computational Imaging",
+  volume    = "2",
+  issue	    ="1",	
+  year      = "2016"
+}

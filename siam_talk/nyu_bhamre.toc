@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Results on Experimental Datasets}{2}{0}{1}
+\beamer@sectionintoc {2}{Introduction}{6}{0}{2}
+\beamer@sectionintoc {3}{Covariance Wiener Filtering (CWF)}{27}{0}{3}
+\beamer@sectionintoc {4}{Results}{33}{0}{4}
+\beamer@sectionintoc {5}{Work in Progress}{42}{0}{5}
+\beamer@sectionintoc {6}{Methods}{46}{0}{6}
