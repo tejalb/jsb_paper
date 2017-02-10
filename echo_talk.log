@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.7)  9 FEB 2017 12:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.7)  9 FEB 2017 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1313,10 +1313,19 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 [6
 
 ]
+! Too many }'s.
+\endframe ->\egroup 
+                    \begingroup \def \@currenvir {frame}
+l.88 \end{frame}
+                
+? 
 File: zika.png Graphic file (type png)
- <use zika.png>
-Package pdftex.def Info: zika.png used on input line 90.
+<use zika.png>
+Package pdftex.def Info: zika.png used on input line 98.
 (pdftex.def)             Requested size: 171.14764pt x 96.21861pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
@@ -1330,6 +1339,67 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 [7
 
 ]
+Overfull \hbox (205.94017pt too wide) has occurred while \output is active
+ [][]  \OT1/cmr/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (64.65088pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[8]
+File: zika.png Graphic file (type png)
+ <use zika.png>
+Package pdftex.def Info: zika.png used on input line 108.
+(pdftex.def)             Requested size: 171.14764pt x 96.21861pt.
+
+Overfull \hbox (205.94017pt too wide) has occurred while \output is active
+ [][]  \OT1/cmr/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (64.65088pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[9
+
+]
+File: zika.png Graphic file (type png)
+ <use zika.png>
+Package pdftex.def Info: zika.png used on input line 118.
+(pdftex.def)             Requested size: 171.14764pt x 96.21861pt.
+
+Overfull \hbox (205.94017pt too wide) has occurred while \output is active
+ [][]  \OT1/cmr/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (64.65088pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[10
+
+]
+File: zika.png Graphic file (type png)
+ <use zika.png>
+Package pdftex.def Info: zika.png used on input line 128.
+(pdftex.def)             Requested size: 171.14764pt x 96.21861pt.
+
+Overfull \hbox (205.94017pt too wide) has occurred while \output is active
+ [][]  \OT1/cmr/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (64.65088pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[11
+
+]
 Package epstopdf Info: Source file: <jsb_fig_80s.eps>
 (epstopdf)                    date: 2016-04-01 05:59:17
 (epstopdf)                    size: 1110457 bytes
@@ -1338,29 +1408,29 @@ Package epstopdf Info: Source file: <jsb_fig_80s.eps>
 (epstopdf)                    size: 573713 bytes
 (epstopdf)             Command: <repstopdf --outfile=jsb_fig_80s-eps-converted-
 to.pdf jsb_fig_80s.eps>
-(epstopdf)             \includegraphics on input line 113.
+(epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
- <jsb_fig_80s-eps-converted-to.pdf, id=257, 578.16pt x 433.62pt>
+ <jsb_fig_80s-eps-converted-to.pdf, id=366, 578.16pt x 433.62pt>
 File: jsb_fig_80s-eps-converted-to.pdf Graphic file (type pdf)
 
 <use jsb_fig_80s-eps-converted-to.pdf>
-Package pdftex.def Info: jsb_fig_80s-eps-converted-to.pdf used on input line 11
-3.
+Package pdftex.def Info: jsb_fig_80s-eps-converted-to.pdf used on input line 15
+2.
 (pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 113.
+Package hyperref Warning: Ignoring empty anchor on input line 152.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 113.
+LaTeX Font Info:    Try loading font information for U+msa on input line 152.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 113.
+LaTeX Font Info:    Try loading font information for U+msb on input line 152.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 113.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 152.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1374,7 +1444,7 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[8
+[12
 
  <./jsb_fig_80s-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <jsb_fig_tv.eps>
@@ -1385,115 +1455,21 @@ Package epstopdf Info: Source file: <jsb_fig_tv.eps>
 (epstopdf)                    size: 348796 bytes
 (epstopdf)             Command: <repstopdf --outfile=jsb_fig_tv-eps-converted-t
 o.pdf jsb_fig_tv.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 175.
 Package epstopdf Info: Output file is already uptodate.
 
-<jsb_fig_tv-eps-converted-to.pdf, id=303, 578.16pt x 433.62pt>
+<jsb_fig_tv-eps-converted-to.pdf, id=414, 578.16pt x 433.62pt>
 File: jsb_fig_tv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use jsb_fig_tv-eps-converted-to.pdf>
-Package pdftex.def Info: jsb_fig_tv-eps-converted-to.pdf used on input line 136
+Package pdftex.def Info: jsb_fig_tv-eps-converted-to.pdf used on input line 175
 .
 (pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 136.
+Package hyperref Warning: Ignoring empty anchor on input line 175.
 
 
-Overfull \hbox (205.94017pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (64.65088pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[9
-
- <./jsb_fig_tv-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <jsb_fig_ip3.eps>
-(epstopdf)                    date: 2016-04-01 05:56:38
-(epstopdf)                    size: 438381 bytes
-(epstopdf)             Output file: <jsb_fig_ip3-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-01 06:01:38
-(epstopdf)                    size: 264509 bytes
-(epstopdf)             Command: <repstopdf --outfile=jsb_fig_ip3-eps-converted-
-to.pdf jsb_fig_ip3.eps>
-(epstopdf)             \includegraphics on input line 156.
-Package epstopdf Info: Output file is already uptodate.
-
-<jsb_fig_ip3-eps-converted-to.pdf, id=346, 578.16pt x 433.62pt>
-File: jsb_fig_ip3-eps-converted-to.pdf Graphic file (type pdf)
-
-<use jsb_fig_ip3-eps-converted-to.pdf>
-Package pdftex.def Info: jsb_fig_ip3-eps-converted-to.pdf used on input line 15
-6.
-(pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 156.
-
-
-Overfull \hbox (205.94017pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (64.65088pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[10
-
- <./jsb_fig_ip3-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <jsb_fig_70s.eps>
-(epstopdf)                    date: 2016-04-01 05:59:17
-(epstopdf)                    size: 478585 bytes
-(epstopdf)             Output file: <jsb_fig_70s-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-01 06:01:39
-(epstopdf)                    size: 317204 bytes
-(epstopdf)             Command: <repstopdf --outfile=jsb_fig_70s-eps-converted-
-to.pdf jsb_fig_70s.eps>
-(epstopdf)             \includegraphics on input line 177.
-Package epstopdf Info: Output file is already uptodate.
-
-<jsb_fig_70s-eps-converted-to.pdf, id=388, 578.16pt x 433.62pt>
-File: jsb_fig_70s-eps-converted-to.pdf Graphic file (type pdf)
-
-<use jsb_fig_70s-eps-converted-to.pdf>
-Package pdftex.def Info: jsb_fig_70s-eps-converted-to.pdf used on input line 17
-7.
-(pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
-
-
-Package hyperref Warning: Ignoring empty anchor on input line 177.
-
-
-Overfull \hbox (205.94017pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (64.65088pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[11
-
- <./jsb_fig_70s-eps-converted-to.pdf>]
-Overfull \hbox (205.94017pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (64.65088pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[12
-
-]
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -1505,7 +1481,30 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 
 [13
 
-]
+ <./jsb_fig_tv-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <jsb_fig_ip3.eps>
+(epstopdf)                    date: 2016-04-01 05:56:38
+(epstopdf)                    size: 438381 bytes
+(epstopdf)             Output file: <jsb_fig_ip3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-01 06:01:38
+(epstopdf)                    size: 264509 bytes
+(epstopdf)             Command: <repstopdf --outfile=jsb_fig_ip3-eps-converted-
+to.pdf jsb_fig_ip3.eps>
+(epstopdf)             \includegraphics on input line 195.
+Package epstopdf Info: Output file is already uptodate.
+
+<jsb_fig_ip3-eps-converted-to.pdf, id=458, 578.16pt x 433.62pt>
+File: jsb_fig_ip3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use jsb_fig_ip3-eps-converted-to.pdf>
+Package pdftex.def Info: jsb_fig_ip3-eps-converted-to.pdf used on input line 19
+5.
+(pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 195.
+
+
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -1517,7 +1516,30 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 
 [14
 
-]
+ <./jsb_fig_ip3-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <jsb_fig_70s.eps>
+(epstopdf)                    date: 2016-04-01 05:59:17
+(epstopdf)                    size: 478585 bytes
+(epstopdf)             Output file: <jsb_fig_70s-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-01 06:01:39
+(epstopdf)                    size: 317204 bytes
+(epstopdf)             Command: <repstopdf --outfile=jsb_fig_70s-eps-converted-
+to.pdf jsb_fig_70s.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+
+<jsb_fig_70s-eps-converted-to.pdf, id=501, 578.16pt x 433.62pt>
+File: jsb_fig_70s-eps-converted-to.pdf Graphic file (type pdf)
+
+<use jsb_fig_70s-eps-converted-to.pdf>
+Package pdftex.def Info: jsb_fig_70s-eps-converted-to.pdf used on input line 21
+6.
+(pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
+
+
+Package hyperref Warning: Ignoring empty anchor on input line 216.
+
+
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -1529,7 +1551,7 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 
 [15
 
-]
+ <./jsb_fig_70s-eps-converted-to.pdf>]
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -1577,12 +1599,7 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 
 [19
 
-] <ctf2-ice.png, id=656, 481.8pt x 338.76563pt>
-File: ctf2-ice.png Graphic file (type png)
- <use ctf2-ice.png>
-Package pdftex.def Info: ctf2-ice.png used on input line 219.
-(pdftex.def)             Requested size: 192.71658pt x 135.50385pt.
-
+]
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -1594,12 +1611,7 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 
 [20
 
- <./ctf2-ice.png>]
-File: ctf2-ice.png Graphic file (type png)
- <use ctf2-ice.png>
-Package pdftex.def Info: ctf2-ice.png used on input line 219.
-(pdftex.def)             Requested size: 192.71658pt x 135.50385pt.
-
+]
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -1612,11 +1624,6 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 [21
 
 ]
-File: ctf2-ice.png Graphic file (type png)
- <use ctf2-ice.png>
-Package pdftex.def Info: ctf2-ice.png used on input line 219.
-(pdftex.def)             Requested size: 192.71658pt x 135.50385pt.
-
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -1640,7 +1647,12 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 
 [23
 
-]
+] <ctf2-ice.png, id=765, 481.8pt x 338.76563pt>
+File: ctf2-ice.png Graphic file (type png)
+ <use ctf2-ice.png>
+Package pdftex.def Info: ctf2-ice.png used on input line 258.
+(pdftex.def)             Requested size: 192.71658pt x 135.50385pt.
+
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -1652,7 +1664,12 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 
 [24
 
-]
+ <./ctf2-ice.png>]
+File: ctf2-ice.png Graphic file (type png)
+ <use ctf2-ice.png>
+Package pdftex.def Info: ctf2-ice.png used on input line 258.
+(pdftex.def)             Requested size: 192.71658pt x 135.50385pt.
+
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -1665,6 +1682,11 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 [25
 
 ]
+File: ctf2-ice.png Graphic file (type png)
+ <use ctf2-ice.png>
+Package pdftex.def Info: ctf2-ice.png used on input line 258.
+(pdftex.def)             Requested size: 192.71658pt x 135.50385pt.
+
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -2109,6 +2131,42 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 [62
 
 ]
+Overfull \hbox (205.94017pt too wide) has occurred while \output is active
+ [][]  \OT1/cmr/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (64.65088pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[63
+
+]
+Overfull \hbox (205.94017pt too wide) has occurred while \output is active
+ [][]  \OT1/cmr/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (64.65088pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[64
+
+]
+Overfull \hbox (205.94017pt too wide) has occurred while \output is active
+ [][]  \OT1/cmr/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (64.65088pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[65
+
+]
 Package epstopdf Info: Source file: <mse_snr_6454.eps>
 (epstopdf)                    date: 2016-03-31 11:14:47
 (epstopdf)                    size: 15843 bytes
@@ -2117,14 +2175,14 @@ Package epstopdf Info: Source file: <mse_snr_6454.eps>
 (epstopdf)                    size: 6240 bytes
 (epstopdf)             Command: <repstopdf --outfile=mse_snr_6454-eps-converted
 -to.pdf mse_snr_6454.eps>
-(epstopdf)             \includegraphics on input line 557.
+(epstopdf)             \includegraphics on input line 576.
 Package epstopdf Info: Output file is already uptodate.
- <mse_snr_6454-eps-converted-to.pdf, id=1869, 497.86pt x 394.47375pt>
+ <mse_snr_6454-eps-converted-to.pdf, id=1953, 497.86pt x 394.47375pt>
 File: mse_snr_6454-eps-converted-to.pdf Graphic file (type pdf)
 
 <use mse_snr_6454-eps-converted-to.pdf>
 Package pdftex.def Info: mse_snr_6454-eps-converted-to.pdf used on input line 5
-57.
+76.
 (pdftex.def)             Requested size: 171.14764pt x 135.60603pt.
 Package epstopdf Info: Source file: <mse_nims_6454.eps>
 (epstopdf)                    date: 2016-04-02 16:33:28
@@ -2134,18 +2192,18 @@ Package epstopdf Info: Source file: <mse_nims_6454.eps>
 (epstopdf)                    size: 6817 bytes
 (epstopdf)             Command: <repstopdf --outfile=mse_nims_6454-eps-converte
 d-to.pdf mse_nims_6454.eps>
-(epstopdf)             \includegraphics on input line 557.
+(epstopdf)             \includegraphics on input line 576.
 Package epstopdf Info: Output file is already uptodate.
 
-<mse_nims_6454-eps-converted-to.pdf, id=1870, 497.86pt x 400.49625pt>
+<mse_nims_6454-eps-converted-to.pdf, id=1954, 497.86pt x 400.49625pt>
 File: mse_nims_6454-eps-converted-to.pdf Graphic file (type pdf)
 
 <use mse_nims_6454-eps-converted-to.pdf>
 Package pdftex.def Info: mse_nims_6454-eps-converted-to.pdf used on input line 
-557.
+576.
 (pdftex.def)             Requested size: 171.14764pt x 137.67635pt.
 
-Overfull \hbox (3.649pt too wide) in paragraph at lines 557--557
+Overfull \hbox (3.649pt too wide) in paragraph at lines 576--576
  [][] 
  []
 
@@ -2159,7 +2217,7 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[63
+[66
 
  <./mse_snr_6454-eps-converted-to.pdf> <./mse_nims_6454-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <cwf_shrinkage_compare.eps>
@@ -2171,14 +2229,14 @@ Package epstopdf Info: Source file: <cwf_shrinkage_compare.eps>
 (epstopdf)                    size: 8591 bytes
 (epstopdf)             Command: <repstopdf --outfile=cwf_shrinkage_compare-eps-
 converted-to.pdf cwf_shrinkage_compare.eps>
-(epstopdf)             \includegraphics on input line 568.
+(epstopdf)             \includegraphics on input line 587.
 Package epstopdf Info: Output file is already uptodate.
 
-<cwf_shrinkage_compare-eps-converted-to.pdf, id=1913, 500.87125pt x 391.4625pt>
+<cwf_shrinkage_compare-eps-converted-to.pdf, id=1994, 500.87125pt x 391.4625pt>
 File: cwf_shrinkage_compare-eps-converted-to.pdf Graphic file (type pdf)
 <use cwf_shrinkage_compare-eps-converted-to.pdf>
 Package pdftex.def Info: cwf_shrinkage_compare-eps-converted-to.pdf used on inp
-ut line 568.
+ut line 587.
 (pdftex.def)             Requested size: 205.37926pt x 160.51857pt.
 
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
@@ -2190,7 +2248,7 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[64
+[67
 
  <./cwf_shrinkage_compare-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <compare_ims_snr1by1_6454.eps>
@@ -2202,15 +2260,15 @@ pdf>
 (epstopdf)                    size: 52401 bytes
 (epstopdf)             Command: <repstopdf --outfile=compare_ims_snr1by1_6454-e
 ps-converted-to.pdf compare_ims_snr1by1_6454.eps>
-(epstopdf)             \includegraphics on input line 603.
+(epstopdf)             \includegraphics on input line 622.
 Package epstopdf Info: Output file is already uptodate.
 
-<compare_ims_snr1by1_6454-eps-converted-to.pdf, id=1951, 722.7pt x 361.35pt>
+<compare_ims_snr1by1_6454-eps-converted-to.pdf, id=2035, 722.7pt x 361.35pt>
 File: compare_ims_snr1by1_6454-eps-converted-to.pdf Graphic file (type pdf)
 
 <use compare_ims_snr1by1_6454-eps-converted-to.pdf>
 Package pdftex.def Info: compare_ims_snr1by1_6454-eps-converted-to.pdf used on 
-input line 603.
+input line 622.
 (pdftex.def)             Requested size: 136.91603pt x 68.45871pt.
 Package epstopdf Info: Source file: <compare_ims_snr1by20_6454.eps>
 (epstopdf)                    date: 2016-04-01 13:52:36
@@ -2221,19 +2279,19 @@ Package epstopdf Info: Source file: <compare_ims_snr1by20_6454.eps>
 (epstopdf)                    size: 57600 bytes
 (epstopdf)             Command: <repstopdf --outfile=compare_ims_snr1by20_6454-
 eps-converted-to.pdf compare_ims_snr1by20_6454.eps>
-(epstopdf)             \includegraphics on input line 603.
+(epstopdf)             \includegraphics on input line 622.
 Package epstopdf Info: Output file is already uptodate.
 
-<compare_ims_snr1by20_6454-eps-converted-to.pdf, id=1952, 722.7pt x 361.35pt>
+<compare_ims_snr1by20_6454-eps-converted-to.pdf, id=2036, 722.7pt x 361.35pt>
 File: compare_ims_snr1by20_6454-eps-converted-to.pdf Graphic file (type pdf)
 
 <use compare_ims_snr1by20_6454-eps-converted-to.pdf>
 Package pdftex.def Info: compare_ims_snr1by20_6454-eps-converted-to.pdf used on
- input line 603.
+ input line 622.
 (pdftex.def)             Requested size: 136.91603pt x 68.45871pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 603.
+Package hyperref Warning: Ignoring empty anchor on input line 622.
 
 Package epstopdf Info: Source file: <compare_ims_snr1by40_6454.eps>
 (epstopdf)                    date: 2016-04-01 13:52:36
@@ -2244,18 +2302,18 @@ Package epstopdf Info: Source file: <compare_ims_snr1by40_6454.eps>
 (epstopdf)                    size: 57482 bytes
 (epstopdf)             Command: <repstopdf --outfile=compare_ims_snr1by40_6454-
 eps-converted-to.pdf compare_ims_snr1by40_6454.eps>
-(epstopdf)             \includegraphics on input line 603.
+(epstopdf)             \includegraphics on input line 622.
 Package epstopdf Info: Output file is already uptodate.
-<compare_ims_snr1by40_6454-eps-converted-to.pdf, id=1953, 722.7pt x 361.35pt>
+<compare_ims_snr1by40_6454-eps-converted-to.pdf, id=2037, 722.7pt x 361.35pt>
 File: compare_ims_snr1by40_6454-eps-converted-to.pdf Graphic file (type pdf)
 
 <use compare_ims_snr1by40_6454-eps-converted-to.pdf>
 Package pdftex.def Info: compare_ims_snr1by40_6454-eps-converted-to.pdf used on
- input line 603.
+ input line 622.
 (pdftex.def)             Requested size: 136.91603pt x 68.45871pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 603.
+Package hyperref Warning: Ignoring empty anchor on input line 622.
 
 Package epstopdf Info: Source file: <compare_ims_snr1by60_6454.eps>
 (epstopdf)                    date: 2016-04-01 13:52:36
@@ -2266,18 +2324,18 @@ Package epstopdf Info: Source file: <compare_ims_snr1by60_6454.eps>
 (epstopdf)                    size: 58327 bytes
 (epstopdf)             Command: <repstopdf --outfile=compare_ims_snr1by60_6454-
 eps-converted-to.pdf compare_ims_snr1by60_6454.eps>
-(epstopdf)             \includegraphics on input line 603.
+(epstopdf)             \includegraphics on input line 622.
 Package epstopdf Info: Output file is already uptodate.
-<compare_ims_snr1by60_6454-eps-converted-to.pdf, id=1954, 722.7pt x 361.35pt>
+<compare_ims_snr1by60_6454-eps-converted-to.pdf, id=2038, 722.7pt x 361.35pt>
 File: compare_ims_snr1by60_6454-eps-converted-to.pdf Graphic file (type pdf)
 
 <use compare_ims_snr1by60_6454-eps-converted-to.pdf>
 Package pdftex.def Info: compare_ims_snr1by60_6454-eps-converted-to.pdf used on
- input line 603.
+ input line 622.
 (pdftex.def)             Requested size: 136.91603pt x 68.45871pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 603.
+Package hyperref Warning: Ignoring empty anchor on input line 622.
 
 
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
@@ -2289,7 +2347,7 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
  [][][][]  
  []
 
-[65
+[68
 
  <./compare_ims_snr1by1_6454-eps-converted-to.pdf> <./compare_ims_snr1by20_6454
 -eps-converted-to.pdf> <./compare_ims_snr1by40_6454-eps-converted-to.pdf> <./co
@@ -2303,16 +2361,16 @@ Package epstopdf Info: Source file: <compare_ims_col_snr1by1_6454.eps>
 (epstopdf)                    size: 52062 bytes
 (epstopdf)             Command: <repstopdf --outfile=compare_ims_col_snr1by1_64
 54-eps-converted-to.pdf compare_ims_col_snr1by1_6454.eps>
-(epstopdf)             \includegraphics on input line 632.
+(epstopdf)             \includegraphics on input line 651.
 Package epstopdf Info: Output file is already uptodate.
 
-<compare_ims_col_snr1by1_6454-eps-converted-to.pdf, id=2026, 722.7pt x 361.35pt
+<compare_ims_col_snr1by1_6454-eps-converted-to.pdf, id=2110, 722.7pt x 361.35pt
 >
 File: compare_ims_col_snr1by1_6454-eps-converted-to.pdf Graphic file (type pdf)
 
  <use compare_ims_col_snr1by1_6454-eps-converted-to.pdf>
 Package pdftex.def Info: compare_ims_col_snr1by1_6454-eps-converted-to.pdf used
- on input line 632.
+ on input line 651.
 (pdftex.def)             Requested size: 136.91603pt x 68.45871pt.
 Package epstopdf Info: Source file: <compare_ims_col_snr1by10_6454.eps>
 (epstopdf)                    date: 2016-04-01 14:15:22
@@ -2323,20 +2381,20 @@ d-to.pdf>
 (epstopdf)                    size: 56317 bytes
 (epstopdf)             Command: <repstopdf --outfile=compare_ims_col_snr1by10_6
 454-eps-converted-to.pdf compare_ims_col_snr1by10_6454.eps>
-(epstopdf)             \includegraphics on input line 632.
+(epstopdf)             \includegraphics on input line 651.
 Package epstopdf Info: Output file is already uptodate.
 
-<compare_ims_col_snr1by10_6454-eps-converted-to.pdf, id=2027, 722.7pt x 361.35p
+<compare_ims_col_snr1by10_6454-eps-converted-to.pdf, id=2111, 722.7pt x 361.35p
 t>
 File: compare_ims_col_snr1by10_6454-eps-converted-to.pdf Graphic file (type pdf
 )
  <use compare_ims_col_snr1by10_6454-eps-converted-to.pdf>
 Package pdftex.def Info: compare_ims_col_snr1by10_6454-eps-converted-to.pdf use
-d on input line 632.
+d on input line 651.
 (pdftex.def)             Requested size: 136.91603pt x 68.45871pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 632.
+Package hyperref Warning: Ignoring empty anchor on input line 651.
 
 Package epstopdf Info: Source file: <compare_ims_col_snr1by20_6454.eps>
 (epstopdf)                    date: 2016-04-01 14:15:22
@@ -2347,60 +2405,22 @@ d-to.pdf>
 (epstopdf)                    size: 61935 bytes
 (epstopdf)             Command: <repstopdf --outfile=compare_ims_col_snr1by20_6
 454-eps-converted-to.pdf compare_ims_col_snr1by20_6454.eps>
-(epstopdf)             \includegraphics on input line 632.
+(epstopdf)             \includegraphics on input line 651.
 Package epstopdf Info: Output file is already uptodate.
 
-<compare_ims_col_snr1by20_6454-eps-converted-to.pdf, id=2028, 722.7pt x 361.35p
+<compare_ims_col_snr1by20_6454-eps-converted-to.pdf, id=2112, 722.7pt x 361.35p
 t>
 File: compare_ims_col_snr1by20_6454-eps-converted-to.pdf Graphic file (type pdf
 )
  <use compare_ims_col_snr1by20_6454-eps-converted-to.pdf>
 Package pdftex.def Info: compare_ims_col_snr1by20_6454-eps-converted-to.pdf use
-d on input line 632.
+d on input line 651.
 (pdftex.def)             Requested size: 136.91603pt x 68.45871pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 632.
+Package hyperref Warning: Ignoring empty anchor on input line 651.
 
 
-Overfull \hbox (205.94017pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (64.65088pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[66
-
- <./compare_ims_col_snr1by1_6454-eps-converted-to.pdf> <./compare_ims_col_snr1b
-y10_6454-eps-converted-to.pdf> <./compare_ims_col_snr1by20_6454-eps-converted-t
-o.pdf>]
-Overfull \hbox (205.94017pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (64.65088pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[67
-
-]
-Overfull \hbox (205.94017pt too wide) has occurred while \output is active
- [][]  \OT1/cmr/m/n/6 ([])  
- []
-
-
-Overfull \hbox (64.65088pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[68
-
-]
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -2412,7 +2432,9 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 
 [69
 
-]
+ <./compare_ims_col_snr1by1_6454-eps-converted-to.pdf> <./compare_ims_col_snr1b
+y10_6454-eps-converted-to.pdf> <./compare_ims_col_snr1by20_6454-eps-converted-t
+o.pdf>]
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -2449,78 +2471,6 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 [72
 
 ]
-Package epstopdf Info: Source file: <raw_title.eps>
-(epstopdf)                    date: 2016-04-02 19:23:16
-(epstopdf)                    size: 310782 bytes
-(epstopdf)             Output file: <raw_title-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-02 19:23:22
-(epstopdf)                    size: 118197 bytes
-(epstopdf)             Command: <repstopdf --outfile=raw_title-eps-converted-to
-.pdf raw_title.eps>
-(epstopdf)             \includegraphics on input line 678.
-Package epstopdf Info: Output file is already uptodate.
- <raw_title-eps-converted-to.pdf, id=2252, 495.8525pt x 406.51875pt>
-File: raw_title-eps-converted-to.pdf Graphic file (type pdf)
-
-<use raw_title-eps-converted-to.pdf>
-Package pdftex.def Info: raw_title-eps-converted-to.pdf used on input line 678.
-
-(pdftex.def)             Requested size: 116.37914pt x 95.40785pt.
-Package epstopdf Info: Source file: <den_title.eps>
-(epstopdf)                    date: 2016-04-02 19:07:19
-(epstopdf)                    size: 124721 bytes
-(epstopdf)             Output file: <den_title-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-02 19:14:30
-(epstopdf)                    size: 50628 bytes
-(epstopdf)             Command: <repstopdf --outfile=den_title-eps-converted-to
-.pdf den_title.eps>
-(epstopdf)             \includegraphics on input line 678.
-Package epstopdf Info: Output file is already uptodate.
-
-<den_title-eps-converted-to.pdf, id=2253, 487.8225pt x 402.50375pt>
-File: den_title-eps-converted-to.pdf Graphic file (type pdf)
-
-<use den_title-eps-converted-to.pdf>
-Package pdftex.def Info: den_title-eps-converted-to.pdf used on input line 678.
-
-(pdftex.def)             Requested size: 116.37914pt x 96.01941pt.
-Package epstopdf Info: Source file: <mean_image.eps>
-(epstopdf)                    date: 2016-04-01 11:03:15
-(epstopdf)                    size: 18277 bytes
-(epstopdf)             Output file: <mean_image-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-01 11:04:22
-(epstopdf)                    size: 6531 bytes
-(epstopdf)             Command: <repstopdf --outfile=mean_image-eps-converted-t
-o.pdf mean_image.eps>
-(epstopdf)             \includegraphics on input line 678.
-Package epstopdf Info: Output file is already uptodate.
-
-<mean_image-eps-converted-to.pdf, id=2254, 258.9675pt x 258.9675pt>
-File: mean_image-eps-converted-to.pdf Graphic file (type pdf)
-
-<use mean_image-eps-converted-to.pdf>
-Package pdftex.def Info: mean_image-eps-converted-to.pdf used on input line 678
-.
-(pdftex.def)             Requested size: 34.23161pt x 34.22806pt.
-Package epstopdf Info: Source file: <top_eigim.eps>
-(epstopdf)                    date: 2016-04-01 11:03:24
-(epstopdf)                    size: 53211 bytes
-(epstopdf)             Output file: <top_eigim-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-01 11:04:23
-(epstopdf)                    size: 19768 bytes
-(epstopdf)             Command: <repstopdf --outfile=top_eigim-eps-converted-to
-.pdf top_eigim.eps>
-(epstopdf)             \includegraphics on input line 678.
-Package epstopdf Info: Output file is already uptodate.
-
-<top_eigim-eps-converted-to.pdf, id=2255, 321.2pt x 61.22874pt>
-File: top_eigim-eps-converted-to.pdf Graphic file (type pdf)
-
-<use top_eigim-eps-converted-to.pdf>
-Package pdftex.def Info: top_eigim-eps-converted-to.pdf used on input line 678.
-
-(pdftex.def)             Requested size: 154.03183pt x 29.36328pt.
-
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -2532,8 +2482,7 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 
 [73
 
- <./raw_title-eps-converted-to.pdf> <./den_title-eps-converted-to.pdf> <./mean_
-image-eps-converted-to.pdf> <./top_eigim-eps-converted-to.pdf>]
+]
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -2558,6 +2507,78 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 [75
 
 ]
+Package epstopdf Info: Source file: <raw_title.eps>
+(epstopdf)                    date: 2016-04-02 19:23:16
+(epstopdf)                    size: 310782 bytes
+(epstopdf)             Output file: <raw_title-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-02 19:23:22
+(epstopdf)                    size: 118197 bytes
+(epstopdf)             Command: <repstopdf --outfile=raw_title-eps-converted-to
+.pdf raw_title.eps>
+(epstopdf)             \includegraphics on input line 697.
+Package epstopdf Info: Output file is already uptodate.
+ <raw_title-eps-converted-to.pdf, id=2335, 495.8525pt x 406.51875pt>
+File: raw_title-eps-converted-to.pdf Graphic file (type pdf)
+
+<use raw_title-eps-converted-to.pdf>
+Package pdftex.def Info: raw_title-eps-converted-to.pdf used on input line 697.
+
+(pdftex.def)             Requested size: 116.37914pt x 95.40785pt.
+Package epstopdf Info: Source file: <den_title.eps>
+(epstopdf)                    date: 2016-04-02 19:07:19
+(epstopdf)                    size: 124721 bytes
+(epstopdf)             Output file: <den_title-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-02 19:14:30
+(epstopdf)                    size: 50628 bytes
+(epstopdf)             Command: <repstopdf --outfile=den_title-eps-converted-to
+.pdf den_title.eps>
+(epstopdf)             \includegraphics on input line 697.
+Package epstopdf Info: Output file is already uptodate.
+
+<den_title-eps-converted-to.pdf, id=2336, 487.8225pt x 402.50375pt>
+File: den_title-eps-converted-to.pdf Graphic file (type pdf)
+
+<use den_title-eps-converted-to.pdf>
+Package pdftex.def Info: den_title-eps-converted-to.pdf used on input line 697.
+
+(pdftex.def)             Requested size: 116.37914pt x 96.01941pt.
+Package epstopdf Info: Source file: <mean_image.eps>
+(epstopdf)                    date: 2016-04-01 11:03:15
+(epstopdf)                    size: 18277 bytes
+(epstopdf)             Output file: <mean_image-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-01 11:04:22
+(epstopdf)                    size: 6531 bytes
+(epstopdf)             Command: <repstopdf --outfile=mean_image-eps-converted-t
+o.pdf mean_image.eps>
+(epstopdf)             \includegraphics on input line 697.
+Package epstopdf Info: Output file is already uptodate.
+
+<mean_image-eps-converted-to.pdf, id=2337, 258.9675pt x 258.9675pt>
+File: mean_image-eps-converted-to.pdf Graphic file (type pdf)
+
+<use mean_image-eps-converted-to.pdf>
+Package pdftex.def Info: mean_image-eps-converted-to.pdf used on input line 697
+.
+(pdftex.def)             Requested size: 34.23161pt x 34.22806pt.
+Package epstopdf Info: Source file: <top_eigim.eps>
+(epstopdf)                    date: 2016-04-01 11:03:24
+(epstopdf)                    size: 53211 bytes
+(epstopdf)             Output file: <top_eigim-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-01 11:04:23
+(epstopdf)                    size: 19768 bytes
+(epstopdf)             Command: <repstopdf --outfile=top_eigim-eps-converted-to
+.pdf top_eigim.eps>
+(epstopdf)             \includegraphics on input line 697.
+Package epstopdf Info: Output file is already uptodate.
+
+<top_eigim-eps-converted-to.pdf, id=2338, 321.2pt x 61.22874pt>
+File: top_eigim-eps-converted-to.pdf Graphic file (type pdf)
+
+<use top_eigim-eps-converted-to.pdf>
+Package pdftex.def Info: top_eigim-eps-converted-to.pdf used on input line 697.
+
+(pdftex.def)             Requested size: 154.03183pt x 29.36328pt.
+
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -2569,7 +2590,8 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 
 [76
 
-]
+ <./raw_title-eps-converted-to.pdf> <./den_title-eps-converted-to.pdf> <./mean_
+image-eps-converted-to.pdf> <./top_eigim-eps-converted-to.pdf>]
 Overfull \hbox (205.94017pt too wide) has occurred while \output is active
  [][]  \OT1/cmr/m/n/6 ([])  
  []
@@ -2594,6 +2616,42 @@ Overfull \hbox (64.65088pt too wide) has occurred while \output is active
 [78
 
 ]
+Overfull \hbox (205.94017pt too wide) has occurred while \output is active
+ [][]  \OT1/cmr/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (64.65088pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[79
+
+]
+Overfull \hbox (205.94017pt too wide) has occurred while \output is active
+ [][]  \OT1/cmr/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (64.65088pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[80
+
+]
+Overfull \hbox (205.94017pt too wide) has occurred while \output is active
+ [][]  \OT1/cmr/m/n/6 ([])  
+ []
+
+
+Overfull \hbox (64.65088pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[81
+
+]
 \tf@nav=\write7
 \openout7 = `echo_talk.nav'.
 
@@ -2610,11 +2668,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 711.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 711.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 730.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 730.
 (./echo_talk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 711.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 711.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 730.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 730.
 Package rerunfilecheck Info: File `echo_talk.out' has not changed.
 (rerunfilecheck)             Checksum: 9F5D5B54FEAF99074A8D57FB18079CC6;438.
 
@@ -2625,13 +2683,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 711.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 730.
  ) 
 Here is how much of TeX's memory you used:
- 18616 strings out of 495028
- 340256 string characters out of 6181498
+ 18623 strings out of 495028
+ 340322 string characters out of 6181498
  447531 words of memory out of 5000000
- 21139 multiletter control sequences out of 15000+600000
+ 21140 multiletter control sequences out of 15000+600000
  18230 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  49i,17n,59p,420b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2655,10 +2713,10 @@ s/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zap
 fding/uzdr.pfb>
-Output written on echo_talk.pdf (78 pages, 3602130 bytes).
+Output written on echo_talk.pdf (81 pages, 3607396 bytes).
 PDF statistics:
- 2565 PDF objects out of 2984 (max. 8388607)
- 2284 compressed objects within 23 object streams
- 189 named destinations out of 1000 (max. 500000)
+ 2649 PDF objects out of 2984 (max. 8388607)
+ 2364 compressed objects within 24 object streams
+ 195 named destinations out of 1000 (max. 500000)
  265 words of extra memory for PDF output out of 10000 (max. 10000000)
 

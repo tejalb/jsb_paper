@@ -80,6 +80,14 @@
 \end{frame}
 
 \begin{frame}
+\frametitle{3D from 2D}
+%  FEI
+\begin{itemize}
+ \item Insert pipeline flowchart
+\end{itemize}
+\end{frame}
+
+\begin{frame}
 \frametitle{Sounds like SfM?}
 %  FEI
 \includegraphics[width=0.5\textwidth]{zika.png}%
@@ -88,6 +96,37 @@
  \item Need new algorithms to handle noise level!
 \end{itemize}
 \end{frame}
+
+\begin{frame}
+\frametitle{Cryo-EM Pipeline}
+%  FEI
+\includegraphics[width=0.5\textwidth]{zika.png}%
+\begin{itemize}
+  \item Can't detect features from raw images, unlike SfM
+ \item Need new algorithms to handle noise level!
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Open Source Software}
+%  FEI
+\includegraphics[width=0.5\textwidth]{zika.png}%
+\begin{itemize}
+  \item Insert ASPIRE image
+  \item Open source software toolbox: ASPIRE
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Today's talk}
+%  FEI
+\includegraphics[width=0.5\textwidth]{zika.png}%
+\begin{itemize}
+  \item Pipeline figure: highlight denoising, class averaging
+\end{itemize}
+\end{frame}
+
 
 \section{Results on Experimental Datasets}
 
@@ -512,31 +551,11 @@ $O(TDL^4 + nL^3)$, where $T$ is the number of conjugate gradient iterations
 \item Images of size $L \times L$
 \item \textit{n} images
 \end{itemize}
-\end{frame}
-
-
-\begin{frame}<beamer>
-\frametitle{Computational Complexity: Timings}
-$n$ images of size $L \times L$\\
 UNIX environment with 60 cores,
 running at 2.3 GHz, with total RAM of 1.5TB
 
-
-\begin{table}[t]
-  \centering
-  \caption{Timing in seconds}
-  \begin{tabular}{ccccc}
-    \toprule
-    Dataset & $L$ & $n$ & Basis coeffs  & CWF \\
-    \midrule
-    TRPV1 & 256 & 35645 & 312s & 574s \\
-    80s & 360 & 30000 &  731s & 385s \\
-    IP3R1  & 256 & 37382 & 429s & 589s\\
-    70s & 250 &  99979 & 1174s & 113s \\
- \bottomrule
-  \end{tabular}
-\end{table}
 \end{frame}
+
 
 \section{Results}
 \begin{frame}<beamer>
